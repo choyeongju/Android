@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="국어국문학과"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="기독교학과"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="독어독문학과"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="불어불문학과"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사학과"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="스포츠학부"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="영어영문학과"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="예슐창작학부 문예창작전공"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="예슐창작학부 영화예술전공"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="일어일문학과"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="중어중문학과"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="철학과"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="noteshow_dialog_array">
+        <item>내 필기</item>
+        <item>컴퓨터구조</item>
+        <item>컴퓨터네트워크</item>
+        <item>사용자인터페이스및실습</item>
+        <item>알고리즘</item>
+    </string-array>
+</resources>

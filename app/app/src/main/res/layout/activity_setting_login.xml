@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="내 정보"
+        android:titleTextColor="@color/white"
+        android:background="@color/blue_4">
+    </Toolbar>
+
+    <ImageView
+        android:id="@+id/setting_logout_image"
+        android:background="@drawable/round_background_border_black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="30dp"
+        android:padding="30dp"
+        android:src="@drawable/ic_launcher_foreground" />
+
+
+    <TextView
+        android:id="@+id/setting_nickname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/setting_logout_image"
+        android:layout_alignTop="@+id/setting_logout_image"
+        android:textSize="20dp"
+        android:text="Nickname"
+        />
+
+
+    <TextView
+        android:id="@+id/setting_college"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/setting_nickname"
+        android:layout_alignLeft="@+id/setting_nickname"
+        android:layout_marginTop="15dp"
+        android:layout_toEndOf="@+id/setting_logout_image"
+        android:text="숭실대학교"
+        android:textSize="15dp"
+        />
+
+    <TextView
+        android:id="@+id/setting_department"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="컴퓨터학부"
+        android:textSize="15dp"
+        android:layout_toEndOf="@id/setting_logout_image"
+        android:layout_below="@id/setting_college"/>
+
+    <TextView
+        android:id="@+id/setting_edit_my_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" 개인정보 수정"
+        android:textSize="20dp"
+        android:layout_alignLeft="@id/setting_logout_image"
+        android:layout_below="@id/setting_logout_image"
+        android:drawableLeft="@drawable/baseline_circle_24"
+        android:layout_marginTop="10dp"
+        />
+
+    <TextView
+        android:id="@+id/setting_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/setting_logout_image"
+        android:layout_below="@id/setting_edit_my_info"
+        android:text=" 로그아웃"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/baseline_circle_24"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:id="@+id/setting_delete_my_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/setting_logout_image"
+        android:layout_below="@id/setting_logout"
+        android:text=" 탈퇴"
+        android:textSize="20dp"
+        android:drawableLeft="@drawable/baseline_circle_24"
+        android:layout_marginTop="5dp"/>
+
+</RelativeLayout>

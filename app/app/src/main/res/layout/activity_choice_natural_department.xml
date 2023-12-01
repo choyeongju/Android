@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="물리학과"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="수학과"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="의생명시스템학부"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="정보통계보험수리학과"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="화학과"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+</LinearLayout>

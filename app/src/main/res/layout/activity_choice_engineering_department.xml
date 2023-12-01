@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="건축학부"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="기계공학부"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="산업정보시스템공학과"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="전기공학부"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="화학공학과"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+</LinearLayout>

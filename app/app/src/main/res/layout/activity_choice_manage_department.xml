@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="경영학부"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="금융학부"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="벤처경영학과(계약학과)"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="벤처중소기업학과"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="복지경영학과(계약학과)"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="혁신경영학과(계약학과)"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회계세무학과(계약학과)"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="회계학과"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="경제학과"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="국제무역학과"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="글로벌통상학과"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="금융경제학과"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="통상산업학과(계약학과)"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="PW_hint">
+        <item> 가장 좋아하는 음식은? </item>
+        <item> 출신 초등학교 이름은? </item>
+        <item> 가장 친한 친구의 이름은? </item>
+        <item> 가장 좋아하는 음악은? </item>
+    </string-array>
+
+</resources>

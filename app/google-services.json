@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "497775637985",
+    "project_id": "notelib-16ba7",
+    "storage_bucket": "notelib-16ba7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497775637985:android:6e250434e326d265e08ea0",
+        "android_client_info": {
+          "package_name": "com.example.noteLib"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdANBPlhZjnxhQc7uQleJ27H2kYKVLunA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:497775637985:android:6c93e69fe8b50b5de08ea0",
+        "android_client_info": {
+          "package_name": "com.example.sample1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdANBPlhZjnxhQc7uQleJ27H2kYKVLunA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

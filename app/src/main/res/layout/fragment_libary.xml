@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/main_search_btn"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:searchIcon="@drawable/baseline_search_24"
+        android:fontFamily="@font/yeongdeok_blueroad"
+        android:inputType="text"
+        android:hint="@string/Library_main_search_hint"
+        android:background="@color/white_blue">
+    </androidx.appcompat.widget.SearchView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/user_department_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="22"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/library_main_user_readingroom_button"
+        android:text="필기도서관"
+        android:fontFamily="@font/yeongdeok_blueroad"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="55sp"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeMaxTextSize="60sp"
+        app:autoSizeStepGranularity="2sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="@color/blue_3"
+        android:layout_marginTop="10dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/baseline_star_24"
+            android:layout_gravity="center"
+            android:text="@string/Favorites"
+            android:fontFamily="@font/yeongdeok_blueroad"
+            android:textColor="@color/black"
+            android:textSize="18dp">
+        </androidx.appcompat.widget.AppCompatTextView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/add_favorites_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            android:drawableStart="@drawable/baseline_add_circle_24"
+            android:clickable="false">
+        </androidx.appcompat.widget.AppCompatTextView>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/main_favorites_RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="20">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:background="@color/blue_3">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/baseline_star_24"
+            android:layout_gravity="center"
+            android:text="@string/All_readingRoom"
+            android:fontFamily="@font/yeongdeok_blueroad"
+            android:textColor="@color/black"
+            android:textSize="18dp">
+        </androidx.appcompat.widget.AppCompatTextView>
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/main_all_readingRoom_RecyclerView"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="40">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>

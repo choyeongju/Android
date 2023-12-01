@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<font-family xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <font android:font="@font/yeonju_font"
+        android:fontStyle="normal"/>
+
+    <font android:font="@font/yeongdeok_font"
+        android:fontStyle="normal"/>
+
+    <font android:font="@font/dovemayo_gothic"
+        android:fontStyle="normal"/>
+
+    <font android:font="@font/yeongdeok_haeparang"
+        android:fontStyle="normal"/>
+
+    <font android:font="@font/gwangyang_touching"
+        android:fontStyle="normal"/>
+
+    <font android:font="@font/yeongdeok_blueroad"
+        android:fontStyle="normal"/>
+
+</font-family>

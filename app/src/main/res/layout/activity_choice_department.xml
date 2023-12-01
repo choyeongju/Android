@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/go_choice_it_department_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="IT 대학 "
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3"
+        android:drawableRight="@drawable/baseline_keyboard_arrow_right_24"/>
+
+    <Button
+        android:id="@+id/go_choice_manage_department_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="경영 대학"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3"
+        android:drawableRight="@drawable/baseline_keyboard_arrow_right_24"/>
+
+    <Button
+        android:id="@+id/go_choice_economy_department_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="경제통상대학"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3"
+        android:drawableRight="@drawable/baseline_keyboard_arrow_right_24"/>
+
+    <Button
+        android:id="@+id/go_choice_engineering_department_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="공과 대학"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3"
+        android:drawableRight="@drawable/baseline_keyboard_arrow_right_24"/>
+
+    <Button
+        android:id="@+id/go_choice_law_department_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="법과 대학"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3"
+        android:drawableRight="@drawable/baseline_keyboard_arrow_right_24"/>
+
+    <Button
+        android:id="@+id/go_choice_social_department_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="사회과학대학"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3"
+        android:drawableRight="@drawable/baseline_keyboard_arrow_right_24"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="융합특성화자유전공학부"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:id="@+id/go_choice_liberal_department_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="인문 대학"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3"
+        android:drawableRight="@drawable/baseline_keyboard_arrow_right_24"/>
+
+    <Button
+        android:id="@+id/go_choice_natural_department_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="자연과학대학"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3"
+        android:drawableRight="@drawable/baseline_keyboard_arrow_right_24"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="차세대반도체학과"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">XmlDesign</string>
+    <string name="Library_main_search_hint"><i>강의제목, 교수명, 학과, 필기내용</i></string>
+    <string name="Favorites">즐겨찾기</string>
+    <string name="All_readingRoom">모든 열람실</string>
+
+    <string-array name="department">
+        <item>AIConvergence</item>
+        <item>GlobalMedia</item>
+        <item>MediaManagement</item>
+        <item>Software</item>
+        <item>ElectronicITConvergence</item>
+        <item>ElectronicEngineering</item>
+        <item>ComputerScience</item>
+        <item>InformationOfElectronic</item>
+    </string-array>
+
+    <string-array name="department_ko">
+        <item>AI 융합학부</item>
+        <item>글로벌미디어학부</item>
+        <item>미디어경영학과</item>
+        <item>소프트웨어학부</item>
+        <item>전정공 IT융합전공</item>
+        <item>전정공 전자공학전공</item>
+        <item>컴퓨터학부</item>
+        <item>정보통신전자공학부</item>
+    </string-array>
+
+    <string name="AIConvergence">AI 융합학부</string>
+    <string name="GlobalMedia">글로벌미디어학부</string>
+    <string name="MediaManagement">미디어경영학과</string>
+    <string name="Software">소프트웨어학부</string>
+    <string name="ElectronicITConvergence">전정공학부 IT융합전공</string>
+    <string name="ElectronicEngineering">전정공학부 전자공학전공</string>
+    <string name="ComputerScience">컴퓨터학부</string>
+    <string name="InformationOfElectronic">정보통신전자공학부</string>
+</resources>

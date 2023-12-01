@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/AI_Convergence_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="AI 융합학부"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:id="@+id/Global_Media_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="글로벌 미디어학부"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:id="@+id/Media_management_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="미디어 경영학과"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:id="@+id/Software_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="소프트웨어학부"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:id="@+id/Electronic_IT_Convergence_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="전자정보공학부 IT융합전공"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:id="@+id/Electronic_Engineering_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="전자정보공학부 전자공학전공"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:id="@+id/Computer_Science_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="컴퓨터학부"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+    <Button
+        android:id="@+id/Information_of_Electronic_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="정보통신전자공학부"
+        android:textAlignment="textStart"
+        android:paddingLeft="50dp"
+        android:textSize="17dp"
+        android:backgroundTint="@color/blue_3" />
+
+
+</LinearLayout>
