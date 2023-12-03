@@ -162,9 +162,13 @@ public class LibaryFragment extends Fragment {
         binding.addFavoritesBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                launcher.launch(new Intent(getContext(), Choice_department.class)
-                        .putExtra("from_LibraryFragment", 1)
-                        .addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY));
+                if (isSign) {
+                    launcher.launch(new Intent(getContext(), Choice_department.class)
+                            .putExtra("from_LibraryFragment", 1)
+                            .addFlags(Intent.FLAG_ACTIVITY_NO_HISTORY));
+                }
+                else
+                    launcher.launch(new Intent(getContext(), Login.class));
             }
         });
 
